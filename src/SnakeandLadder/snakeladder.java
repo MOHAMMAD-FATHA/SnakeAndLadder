@@ -1,6 +1,7 @@
 package SnakeandLadder;
 
-public class snakeladder {
+public class snakeladder 
+{
 
 public static void main(String[] args)
 {
@@ -9,4 +10,12 @@ public static void main(String[] args)
 	System.out.println("Welcome to Snake-Ladder Program Problem");
 	System.out.println("You are at Starting Position::"+Position);
 }
+	public static void Die()
+	{
+		int DieCheck = 1 +(int) Math.floor(Math.random()*6);
+		System.out.println("Dice Value::"+ DieCheck);
+	}
+
+
 }
+
